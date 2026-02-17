@@ -1,5 +1,6 @@
 import './App.css'
 import Accordion from './components/Accordion'
+import AcronymGenerator from './components/AcronymGenerator'
 import AgeCalculator from './components/AgeCalculator'
 import Authentication from './components/Authentication/Authentication'
 import CharacterCount from './components/CharacterCount'
@@ -40,8 +41,9 @@ function App() {
       <Greetings />
       <AgeCalculator />
       <ChipsInput />
-      <Sidebar />*/}
-      <EvenOrOddChecker />
+      <Sidebar />
+      <EvenOrOddChecker />*/}
+      <AcronymGenerator />
     </>
   )
 }
