@@ -7,6 +7,7 @@ import CharacterCount from './components/CharacterCount'
 import ChipsInput from './components/ChipsInput'
 import EvenOrOddChecker from './components/EvenOrOddChecker'
 import Greetings from './components/Greetings'
+import PasswordStrength from './components/PasswordStrength'
 import ProgressBar from './components/ProgressBar'
 import Sidebar from './components/Sidebar'
 import TabSwitcher from './components/TabSwitcher'
@@ -42,8 +43,9 @@ function App() {
       <AgeCalculator />
       <ChipsInput />
       <Sidebar />
-      <EvenOrOddChecker />*/}
-      <AcronymGenerator />
+      <EvenOrOddChecker />
+      <AcronymGenerator />*/}
+      <PasswordStrength />
     </>
   )
 }
