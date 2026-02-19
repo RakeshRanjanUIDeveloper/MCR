@@ -20,10 +20,30 @@
             {id:3, category: 'Electronics'}
         ]
         function groupBy(arr, key) {
+            // return arr.reduce((acc, item) => {
+            //     const groupKey = item[key];
+            //     if(!acc[groupKey]){
+            //         acc[groupKey] = []
+            //     }
+            //     acc[groupKey].push(item);
+            //     return acc;
+            // }, {})
 
+            const result = {};
+            for(const item of arr){
+                console.log(item)
+                const keyValue = item[key];
+                console.log(keyValue)
+                if(!result.hasOwnProperty(keyValue)){
+                    result[keyValue] = []
+                }
+                result[keyValue].push(item)
+            }
+            return result
+            
         }
-        groupBy(users,'age');
-        groupBy(products, 'category')
+        console.log(groupBy(users,'age'));
+        console.log(groupBy(products, 'category'));
     </script>
 </body>
 
