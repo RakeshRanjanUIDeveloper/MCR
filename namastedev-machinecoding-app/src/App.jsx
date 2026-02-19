@@ -5,6 +5,7 @@ import AgeCalculator from './components/AgeCalculator'
 import Authentication from './components/Authentication/Authentication'
 import CharacterCount from './components/CharacterCount'
 import ChipsInput from './components/ChipsInput'
+import CopyClipboard from './components/CopyClipboard'
 import EvenOrOddChecker from './components/EvenOrOddChecker'
 import Greetings from './components/Greetings'
 import PasswordStrength from './components/PasswordStrength'
@@ -44,8 +45,9 @@ function App() {
       <ChipsInput />
       <Sidebar />
       <EvenOrOddChecker />
-      <AcronymGenerator />*/}
-      <PasswordStrength />
+      <AcronymGenerator />
+      <PasswordStrength />*/}
+      <CopyClipboard />
     </>
   )
 }
