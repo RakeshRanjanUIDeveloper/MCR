@@ -7,6 +7,7 @@ import CharacterCount from './components/CharacterCount'
 import ChipsInput from './components/ChipsInput'
 import CopyClipboard from './components/CopyClipboard'
 import EvenOrOddChecker from './components/EvenOrOddChecker'
+import FocusInput from './components/FocusInput'
 import Greetings from './components/Greetings'
 import PasswordStrength from './components/PasswordStrength'
 import ProgressBar from './components/ProgressBar'
@@ -46,8 +47,9 @@ function App() {
       <Sidebar />
       <EvenOrOddChecker />
       <AcronymGenerator />
-      <PasswordStrength />*/}
-      <CopyClipboard />
+      <PasswordStrength />
+      <CopyClipboard />*/}
+      <FocusInput />
     </>
   )
 }
