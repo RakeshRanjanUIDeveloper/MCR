@@ -3,6 +3,7 @@ import Accordion from './components/Accordion'
 import AcronymGenerator from './components/AcronymGenerator'
 import AgeCalculator from './components/AgeCalculator'
 import Authentication from './components/Authentication/Authentication'
+import AutoSaveInput from './components/AutoSaveInput'
 import CharacterCount from './components/CharacterCount'
 import ChipsInput from './components/ChipsInput'
 import CopyClipboard from './components/CopyClipboard'
@@ -48,8 +49,9 @@ function App() {
       <EvenOrOddChecker />
       <AcronymGenerator />
       <PasswordStrength />
-      <CopyClipboard />*/}
-      <FocusInput />
+      <CopyClipboard />
+      <FocusInput />*/}
+      <AutoSaveInput />
     </>
   )
 }

@@ -13,7 +13,7 @@ const FocusInput = () => {
         placeholder="Type here"
         style={{ padding: '8px', fontSize: '16px', marginRight: '10px' }}
         ref={inputRef}
-      />
+      /> 
       <button style={{ padding: '8px 12px' }} onClick={handleFocus}>
         Focus Input
       </button>
