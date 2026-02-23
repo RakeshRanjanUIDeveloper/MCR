@@ -6,6 +6,7 @@ import Authentication from './components/Authentication/Authentication'
 import AutoSaveInput from './components/AutoSaveInput'
 import CharacterCount from './components/CharacterCount'
 import ChipsInput from './components/ChipsInput'
+import ColorExplorer from './components/ColorExplorer'
 import CopyClipboard from './components/CopyClipboard'
 import EvenOrOddChecker from './components/EvenOrOddChecker'
 import FocusInput from './components/FocusInput'
@@ -50,8 +51,9 @@ function App() {
       <AcronymGenerator />
       <PasswordStrength />
       <CopyClipboard />
-      <FocusInput />*/}
-      <AutoSaveInput />
+      <FocusInput />
+      <AutoSaveInput />*/}
+      <ColorExplorer />
     </>
   )
 }
