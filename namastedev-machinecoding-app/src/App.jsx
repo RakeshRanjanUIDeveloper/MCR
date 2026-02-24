@@ -15,6 +15,7 @@ import PasswordStrength from './components/PasswordStrength'
 import ProgressBar from './components/ProgressBar'
 import Sidebar from './components/Sidebar'
 import TabSwitcher from './components/TabSwitcher'
+import TogglePassword from './components/TogglePassword'
 import UserProfile from './components/UserProfile'
 function App() {
   const items = [
@@ -52,8 +53,9 @@ function App() {
       <PasswordStrength />
       <CopyClipboard />
       <FocusInput />
-      <AutoSaveInput />*/}
-      <ColorExplorer />
+      <AutoSaveInput />
+      <ColorExplorer />*/}
+      <TogglePassword />
     </>
   )
 }

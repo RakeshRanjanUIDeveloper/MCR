@@ -197,3 +197,42 @@ input[type="text"] {
   margin-top: 20px;
   font-size: 16px;
 }
+
+.password-wrapper {
+  position: relative;
+  width: 290px;
+}
+
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px 35px 10px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  background-color: white;
+}
+
+.icon {
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888;
+}
+
+.icon:hover {
+  color: #000;
+}
+
+.visibility-label {
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  color: #888;
+  text-align: left;
+  width: 280px;
+}
