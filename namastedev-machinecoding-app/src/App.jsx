@@ -11,6 +11,7 @@ import CopyClipboard from './components/CopyClipboard'
 import EvenOrOddChecker from './components/EvenOrOddChecker'
 import FocusInput from './components/FocusInput'
 import Greetings from './components/Greetings'
+import LeapYear from './components/LeapYear'
 import PasswordStrength from './components/PasswordStrength'
 import ProgressBar from './components/ProgressBar'
 import Sidebar from './components/Sidebar'
@@ -54,8 +55,9 @@ function App() {
       <CopyClipboard />
       <FocusInput />
       <AutoSaveInput />
-      <ColorExplorer />*/}
-      <TogglePassword />
+      <ColorExplorer />
+      <TogglePassword />*/}
+      <LeapYear />
     </>
   )
 }
