@@ -9,6 +9,7 @@ import ChipsInput from './components/ChipsInput'
 import ColorExplorer from './components/ColorExplorer'
 import CopyClipboard from './components/CopyClipboard'
 import EvenOrOddChecker from './components/EvenOrOddChecker'
+import FaqAccordion from './components/FaqAccordion'
 import FocusInput from './components/FocusInput'
 import Greetings from './components/Greetings'
 import LeapYear from './components/LeapYear'
@@ -58,8 +59,9 @@ function App() {
       <AutoSaveInput />
       <ColorExplorer />
       <TogglePassword />
-      <LeapYear />*/}
-      <Tooltip />
+      <LeapYear />
+      <Tooltip />*/}
+      <FaqAccordion />
     </>
   )
 }
