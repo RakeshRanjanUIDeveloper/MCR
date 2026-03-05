@@ -20,6 +20,7 @@ import TabSwitcher from './components/TabSwitcher'
 import TogglePassword from './components/TogglePassword'
 import Tooltip from './components/Tooltip'
 import UserProfile from './components/UserProfile'
+import OnOff from './components/onOff'
 function App() {
   const items = [
   {
@@ -60,8 +61,9 @@ function App() {
       <ColorExplorer />
       <TogglePassword />
       <LeapYear />
-      <Tooltip />*/}
-      <FaqAccordion />
+      <Tooltip />
+      <FaqAccordion />*/}
+      <OnOff />
     </>
   )
 }
