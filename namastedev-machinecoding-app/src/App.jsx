@@ -1,3 +1,4 @@
+import { Provider } from 'react-redux'
 import './App.css'
 import Accordion from './components/Accordion'
 import AcronymGenerator from './components/AcronymGenerator'
@@ -15,12 +16,14 @@ import Greetings from './components/Greetings'
 import LeapYear from './components/LeapYear'
 import PasswordStrength from './components/PasswordStrength'
 import ProgressBar from './components/ProgressBar'
+import Users from './components/ReduxSaga/components/Users'
 import Sidebar from './components/Sidebar'
 import TabSwitcher from './components/TabSwitcher'
 import TogglePassword from './components/TogglePassword'
 import Tooltip from './components/Tooltip'
 import UserProfile from './components/UserProfile'
 import OnOff from './components/onOff'
+import store from './components/ReduxSaga/redux/store'
 function App() {
   const items = [
   {
@@ -62,8 +65,12 @@ function App() {
       <TogglePassword />
       <LeapYear />
       <Tooltip />
-      <FaqAccordion />*/}
-      <OnOff />
+      <FaqAccordion />
+      <OnOff />*/}
+      <Provider store={store}>
+        <Users />
+      </Provider>
+        
     </>
   )
 }
